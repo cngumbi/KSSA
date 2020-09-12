@@ -1,0 +1,53 @@
+.staff {
+    margin-top: 40px;
+    text-align: center;
+}
+.staff h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+
+}
+.staff .our_team {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.imgstaff {
+    height: 200px;
+    width: 200px;
+}
+.staff .our_team .team_member {
+    width: 350px;
+    margin: 5px;
+    padding: 20px 10px;
+    background: ghostwhite;
+}
+.staff .our_team .team_member .member_img {
+    max-width: 190px;
+    max-height: 190px;
+    width:  100%;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.staff .our_team .team_member .member_img img{
+    height: 100%;
+    width: 100%;
+}
+.staff .our_team .team_member h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0;
+}
+.staff .our_team .team_member span{
+    font-size: 10px;
+}
+.staff .our_team .team_member p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}

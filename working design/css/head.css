@@ -1,0 +1,98 @@
+body {
+    font-size: 100%;
+  }
+/*------------------------------------------------------*/
+                        /*HEADER*/
+/*------------------------------------------------------*/
+.head {
+    /* The image used */
+    background-image: url("../images/IMG_5400_CROPPED.jpg");
+  
+    /* Full height */
+    height: 230px; 
+    /* Center and scale the image nicely  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    
+}
+.mail {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: ghostwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul.social {
+    list-style-type: none;
+    position: absolute;
+    right: 105px;
+    top: 2px;
+}
+.navigation {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 2px;
+    overflow: hidden;
+    background-color: rgb(4, 82, 8);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 860px;
+    margin: auto;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 30px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+.headertext {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 10px 20px;
+    /*
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    color: #000300;*/
+    
+    color: ghostwhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headertext h1 {
+    font-size: 2.8em;
+    background-color: rgba(1, 27, 2, 0.3);
+    padding: 10px 10px;
+    width: auto;
+}
+/*
+h1.hometext {
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.hometext {
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+.imagelink {
+    height: 40px;
+    width: 40px;
+}
+/*------------------------------------------------------*/
