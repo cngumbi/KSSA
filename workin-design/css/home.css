@@ -1,0 +1,144 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+/*------------------------------------------------------*/
+                        /*HEADER*/
+/*------------------------------------------------------*/
+.head {
+    /* The image used */
+    background-image: url("../images/IMG_5607.jpg");
+  
+    /* Full height */
+    height: 900px; 
+    /* Center and scale the image nicely  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navigation {
+    grid-area: navigation;
+}
+.social {
+    grid-area: social;
+}
+.mail {
+    color: ghostwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    grid-area: mail;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+ul.social {
+    list-style-type: none;
+}
+ul.links {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(4, 82, 8);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+header {
+    display: grid;
+    height: 10vh;
+    overflow: hidden;
+    grid-template-columns: 0.25fr 0.5fr 0.25fr;
+    grid-template-areas: 
+        "mail navigation social";
+
+}
+.headertext {
+    width: auto;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 150px;
+    background-color: rgb(4, 82, 8, .9);
+    text-align: center;
+    
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagelink {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+/*------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+                        /*PROJECTS*/
+/*------------------------------------------------------*/
+#projects {
+    padding: 40px 50px 20px;
+}
+.projectshead {
+    text-align: center;
+}
+
+/*------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+                        /*FOOTBALL*/
+/*------------------------------------------------------*/
+#football {
+    background-image: url("../images/football.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px; 
+    text-align: center;
+    padding-top: 180px;
+    line-height: 20px;
+}
+#football h1 {
+    font-size: 3.5em;
+    color: ghostwhite;
+    
+    background-color: rgba(1, 27, 2, 0.3);
+    padding: 10px 10px;
+}
+/*------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+                        /*ACADEMY*/
+/*------------------------------------------------------*/
+#academy {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .nagivation {
+        display: none;
+        /*
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1fr 0.4fr;
+        grid-template-areas: 
+            "mail"
+            "navigation"
+            "socials";*/
+    }
+    .social {
+        display: none;
+    }
+} 

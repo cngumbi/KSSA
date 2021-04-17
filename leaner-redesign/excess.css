@@ -1,0 +1,28 @@
+#karibu {
+    grid-area: karibu;
+    background-image: url("images/football1.jpg");
+    /* Full height */
+    height: 230px; 
+    /* Center and scale the image nicely  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    /*
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height: 430px; 
+    text-align: center;
+    padding-top: 180px;
+    line-height: 20px;
+}
+#karibu h1 {
+    font-size: 3.5em;
+    color: #e8f8ff;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(5, 31, 17, 0.9);
+    padding: 10px 30px;
+    height: 70px;
+}
